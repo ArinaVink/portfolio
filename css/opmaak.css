@@ -36,7 +36,7 @@ body{
   }
   .intro{
   /*  background-color: lightblue;*/
-    width: 100%;  
+    width: 100%;
   }
   h1{
     font-size: 18px;
@@ -59,13 +59,133 @@ body{
 
 
 @media only screen and (min-device-width:741px) and (max-device-width:1024px)  {
+  .logo{
+    width: 40px;
+    margin: 0 auto;
+  }
+  .naam{
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  .fun{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
 
+  }
+  .container{
+    background-size: 740px;
+    z-index: 0;
+    height: 200px;
+  }
+  .intro{
+  /*  background-color: lightblue;*/
+    width: 100%;
+  }
+  h1{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-bottom: 0px;
+
+  }
+  h2{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+  }
+  p{
+    text-align: center;
+    font-size: 14px;
+    color: black;
+  }
 }
 
 @media only screen and (min-device-width:1025px) and (max-device-width:1365px)  {
+  .logo{
+    width: 40px;
+    margin: 0 auto;
+  }
+  .naam{
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  .fun{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
 
+  }
+  .container{
+    background-size: 740px;
+    z-index: 0;
+    height: 200px;
+  }
+  .intro{
+  /*  background-color: lightblue;*/
+    width: 100%;
+  }
+  h1{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-bottom: 0px;
+
+  }
+  h2{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+  }
+  p{
+    text-align: center;
+    font-size: 14px;
+    color: black;
+  }
 }
 
 @media only screen and (min-device-width:1366px)  {
+  .logo{
+    width: 40px;
+    margin: 0 auto;
+  }
+  .naam{
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  .fun{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
 
+  }
+  .container{
+    background-size: 740px;
+    z-index: 0;
+    height: 200px;
+  }
+  .intro{
+  /*  background-color: lightblue;*/
+    width: 100%;
+  }
+  h1{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-bottom: 0px;
+
+  }
+  h2{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+  }
+  p{
+    text-align: center;
+    font-size: 14px;
+    color: black;
+  }
 }
