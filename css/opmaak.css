@@ -5,11 +5,47 @@ body{
 .container{
   display: flex;
   justify-content: center;
+}
+#kiten{
   background-image: url('../afbeelding/kiten.JPG');
   background-repeat: no-repeat;
   height: auto;
   background-position: center;
   background-attachment: fixed;
+}
+
+.fun{
+  text-align: center;
+  font-style: italic;
+  color: darkgray;
+
+}
+.paralax{
+  height: 500px;
+}
+#1{
+  background-image: url('../afbeelding/gezicht.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 500px;
+}
+#2{
+  background-image: url('../afbeelding/gaston.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 500px;
+}
+#3{
+  background-image: url('../afbeelding/ik.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 500px;
 }
 
 
@@ -23,15 +59,8 @@ body{
     text-align: center;
     letter-spacing: 3px;
   }
-  .fun{
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-
-  }
-  .container{
+  .kiten {
     background-size: 740px;
-    z-index: 0;
     height: 200px;
   }
   .intro{
@@ -68,15 +97,8 @@ body{
     text-align: center;
     letter-spacing: 3px;
   }
-  .fun{
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-
-  }
-  .container{
-    background-size: 740px;
-    z-index: 0;
+  .kiten {
+    background-size: 1024px;
     height: 200px;
   }
   .intro{
@@ -104,23 +126,16 @@ body{
 
 @media only screen and (min-device-width:1025px) and (max-device-width:1365px)  {
   .logo{
-    width: 40px;
+    width: 80px;
     margin: 0 auto;
   }
   .naam{
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
   }
-  .fun{
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-
-  }
-  .container{
-    background-size: 740px;
-    z-index: 0;
+  .kiten {
+    background-size: 1366px;
     height: 200px;
   }
   .intro{
@@ -129,13 +144,12 @@ body{
   }
   h1{
     font-size: 18px;
-    color: white;
+    color: lightblue;
     text-align: center;
     padding-bottom: 0px;
-
   }
   h2{
-    color: black;
+    color: lightblue;
     font-size: 16px;
     text-align: center;
   }
@@ -143,28 +157,24 @@ body{
     text-align: center;
     font-size: 14px;
     color: black;
+  }
+  .paralax{
+    background-attachment: scroll;
   }
 }
 
 @media only screen and (min-device-width:1366px)  {
   .logo{
-    width: 40px;
+    width: 80px;
     margin: 0 auto;
   }
   .naam{
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
   }
-  .fun{
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-
-  }
-  .container{
-    background-size: 740px;
-    z-index: 0;
+  .kiten {
+    background-size: 1366px;
     height: 200px;
   }
   .intro{
@@ -173,13 +183,13 @@ body{
   }
   h1{
     font-size: 18px;
-    color: white;
+    color: lightblue;
     text-align: center;
     padding-bottom: 0px;
 
   }
   h2{
-    color: black;
+    color: lightblue;
     font-size: 16px;
     text-align: center;
   }
@@ -188,4 +198,8 @@ body{
     font-size: 14px;
     color: black;
   }
+  .paralax{
+    background-attachment: scroll;
+  }
+
 }
