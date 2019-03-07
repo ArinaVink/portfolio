@@ -40,7 +40,20 @@ function quotes(){
 
 }
 
+function fadeIn() {
+    TweenMax.to(document.getElementById('button'), 5, {opacity:1});
+}
+
+function showDiv(){
+         var div = document.getElementsByClassName('text_container');
+         for (var i=0;i<div.length;i+=1){
+           div[i].style.display = 'block';
+         }
+}
+
 window.onload = function(){
   quotes();
+  fadeIn();
+  showDiv();
 
 };

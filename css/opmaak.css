@@ -19,7 +19,27 @@ body{
   font-style: italic;
   color: darkgray;
 }
+/*download cv stijling*/
+form:hover{
+  transform: scale(1.5);
+}
 
+form{ /* download voor CV*/
+  margin: 0 auto;
+  text-align: center;
+}
+#button{ /*CV button*/
+  background:none;
+  border:none;
+}
+
+.text_container{
+  text-align: center;
+  width: 500px;
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
 
 @media only screen and (max-device-width:740px)  {
   .logo{
@@ -56,6 +76,11 @@ body{
     font-size: 14px;
     color: black;
   }
+  .text_container{
+    text-align: left;
+
+  }
+
 }
 
 
@@ -94,6 +119,10 @@ body{
     font-size: 14px;
     color: black;
   }
+  .text_container{
+    text-align: left;
+  }
+
 }
 
 @media only screen and (min-device-width:1025px) and (max-device-width:1365px)  {
@@ -129,6 +158,9 @@ body{
     text-align: center;
     font-size: 14px;
     color: black;
+  }
+  .text_container{
+    text-align: center;
   }
 }
 
@@ -166,5 +198,9 @@ body{
     text-align: center;
     font-size: 14px;
     color: black;
+  }
+  .text_container{
+    text-align: center;
+
   }
 }
