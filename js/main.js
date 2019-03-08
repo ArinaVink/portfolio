@@ -44,16 +44,22 @@ function fadeIn() {
     TweenMax.to(document.getElementById('button'), 5, {opacity:1});
 }
 
-function showDiv(){
-         var div = document.getElementsByClassName('text_container');
-         for (var i=0;i<div.length;i+=1){
-           div[i].style.display = 'block';
-         }
-}
+function showDivIk(){
+  var e = document.getElementById('ik');
+  e.style.display = ((e.style.display!='none') ? 'none' : 'block');
+  }
+
+  function showDivSport(){
+    var e = document.getElementById('sport');
+    e.style.display = ((e.style.display!='none') ? 'none' : 'block');
+    }
+
+  function showDivVragen(){
+      var e = document.getElementById('vragen');
+      e.style.display = ((e.style.display!='none') ? 'none' : 'block');
+      }
 
 window.onload = function(){
   quotes();
   fadeIn();
-  showDiv();
-
 };
