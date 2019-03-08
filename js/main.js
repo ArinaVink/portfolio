@@ -41,7 +41,7 @@ function quotes(){
 }
 
 function fadeIn() {
-    TweenMax.to(document.getElementById('button'), 5, {opacity:1});
+    TweenMax.from(document.getElementById('cvButton'), 5, {opacity:0}, {opacity:1});
 }
 
 function showDivIk(){
