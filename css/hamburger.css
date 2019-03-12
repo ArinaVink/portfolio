@@ -1,3 +1,18 @@
+@media only screen and (max-device-width:740px)  {
+
+}
+
+@media only screen and (min-device-width:741px) and (max-device-width:1024px){
+
+}
+
+@media only screen and (min-device-width:1025px) and (max-device-width:1365px){
+
+}
+
+@media only screen and (min-device-width:1366px){
+
+}
 .nav{
   position: absolute;
   top: 10px;
@@ -108,6 +123,13 @@ a:hover{
 .menu li{
   padding: 10px 0;
   font-size: 22px;
+}
+
+.nested{
+ display: none;
+}
+.nested>li{
+/*  position: relative;*/
 }
 
 /*

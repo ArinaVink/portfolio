@@ -39,11 +39,12 @@ function quotes(){
     document.getElementById('quote').innerHTML = melding;
 
 }
-
+// about me pagina - cv button
 function fadeIn() {
     TweenMax.from(document.getElementById('cvButton'), 5, {opacity:0}, {opacity:1});
 }
 
+//voor about me pagina - buttons
 function showDivIk(){
   var e = document.getElementById('ik');
   e.style.display = ((e.style.display!='none') ? 'none' : 'block');
@@ -57,7 +58,15 @@ function showDivIk(){
   function showDivVragen(){
       var e = document.getElementById('vragen');
       e.style.display = ((e.style.display!='none') ? 'none' : 'block');
-      }
+    }
+
+// hide and show menu lists
+function showNested(){
+    var e = document.getElementById('ul');
+    e.style.display = ((e.style.display!='none') ? 'none' : 'block');
+
+  }
+  console.log(showNested);
 
 window.onload = function(){
   quotes();
