@@ -9,11 +9,18 @@ background: linear-gradient(rgba(2,0,36,1) 0%, rgba(9,9,121,1) 30%, rgba(0,212,2
 
 
 }
-.paralax1{
+.paralax1{ /*home page*/
   background-image: url('../afbeelding/ik.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.paralaxWork{/*workcase*/
+  background-image: url('../afbeelding/universe.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
 }
 .container{
   display: flex;
@@ -104,7 +111,40 @@ figure{
   display: inline-block;
   margin: 0 auto;
 }
+.appui{
 
+
+}
+.la{
+  background-image: url('../afbeelding/appui/visitekaartje-250px.png');
+  background-repeat: no-repeat;
+  background-position: center;
+/*  background-size: cover;*/
+  height: 250px;
+
+}
+.ln{
+  background-image: url('../afbeelding/nzink/logo-250px.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+/*  background-size: cover;*/
+  height: 100px;
+}
+.lh{
+  background-image: url('../afbeelding/hollands/styletile.png');
+  background-repeat: no-repeat;
+  background-position: center;
+/*  background-size: cover;*/
+  height: 250px;
+}
+
+.lf{
+  background-image: url('../afbeelding/face/def-styletile.png');
+  background-repeat: no-repeat;
+  background-position: center;
+/*  background-size: cover;*/
+  height: 250px;
+}
 @media only screen and (max-device-width:740px)  {
   .logo{
     width: 40px;
