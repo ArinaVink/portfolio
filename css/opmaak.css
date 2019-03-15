@@ -43,7 +43,9 @@ form{ /* download voor CV*/
   border:none;
   margin: 30px;
 }
-
+.center{
+  text-align: center;
+}
 button{ /*buttons voor het uitdagen om meer over mij te leren*/
   background: lightblue;
   color:#fff;
@@ -101,10 +103,6 @@ figure{
 .social{
   display: inline-block;
   margin: 0 auto;
-}
-.appui{
-
-
 }
 .ln{
   background-image: url('../afbeelding/nzink/logo-250px.svg');
@@ -237,10 +235,6 @@ figure{
     font-size: 20px;
     text-align: center;
     letter-spacing: 1px;
-  }
-  .kiten {
-    background-size: 1366px;
-    height: 200px;
   }
   .paralax{
     height: 250px;
