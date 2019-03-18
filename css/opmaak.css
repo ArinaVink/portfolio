@@ -89,7 +89,7 @@ button:hover:before,button:hover:after{
   transition:800ms ease all;
 }
 
-.text_container{
+.text_container{ /* in about me*/
   text-align: center;
   width: 500px;
   height: 200px;
@@ -169,9 +169,6 @@ figure{
     text-align: center;
     letter-spacing: 3px;
   }
-  .paralax{
-
-  }
   .paralax1{
     height: 500px;
     width: 400px
@@ -226,9 +223,8 @@ figure{
     font-size: 14px;
     width: 1000px;
     margin: 0 auto;
-
   }
-  .text_container{
+  .text_container{ /* in about me*/
     text-align: center;
   }
 }
@@ -255,7 +251,6 @@ figure{
     font-size: 18px;
     text-align: center;
     padding-bottom: 0px;
-
   }
   h2{
     font-size: 16px;
@@ -267,8 +262,7 @@ figure{
     width: 1000px;
     margin: 0 auto;
   }
-  .text_container{
+  .text_container{ /* in about me*/
     text-align: center;
-
   }
 }
