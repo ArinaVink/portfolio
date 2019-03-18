@@ -4,7 +4,7 @@ body{
 .paralax1{ /*home page*/
   background-image: url('../afbeelding/ik.jpeg');
   background-repeat: no-repeat;
-  background-position: center;
+  /*background-position: center;*/
   background-size: cover;
 }
 .paralaxWork{/*workcase*/
@@ -21,6 +21,10 @@ body{
 }
 .intro{
   width: 100%;
+  margin-bottom: 10px;
+}
+strong{
+  color: lightblue
 }
 .fun{
   text-align: center;
@@ -131,8 +135,10 @@ figure{
     width: 730px;
   }
   .paralax1{
-    height: 100px;
-    width: 730px;
+    background-image: url(../afbeelding/strand.jpg);
+    height: 250px;
+    width: 150px;
+    margin: 0 auto;
   }
   h1{
     font-size: 18px;
