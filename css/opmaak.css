@@ -2,9 +2,10 @@ body{
   font-family: Century Gothic;
   }
 .paralax1{ /*home page*/
-  background-image: url('../afbeelding/ik.jpeg');
+  background-image: url(../afbeelding/strand.jpg);
   background-repeat: no-repeat;
   /*background-position: center;*/
+  margin: 0 auto;
   background-size: cover;
 }
 .paralaxWork{/*workcase*/
@@ -138,7 +139,6 @@ figure{
     width: 730px;
   }
   .paralax1{
-    background-image: url(../afbeelding/strand.jpg);
     height: 250px;
     width: 150px;
     margin: 0 auto;
@@ -170,12 +170,11 @@ figure{
     letter-spacing: 3px;
   }
   .paralax{
-    height: 100px;
-    width: 1024px
+
   }
   .paralax1{
-    height: 100px;
-    width: 1024px;
+    height: 500px;
+    width: 400px
   }
   h1{
     font-size: 18px;
@@ -209,8 +208,8 @@ figure{
     width: 100%;
   }
   .paralax1{
-    height: 250px;
-    width: 100%;
+    height: 500px;
+    width: 400px
   }
   h1{
     font-size: 18px;
@@ -246,7 +245,7 @@ figure{
   }
   .paralax1{
     height: 500px;
-    width: 100%;
+    width: 400px
   }
   h1{
     font-size: 18px;
