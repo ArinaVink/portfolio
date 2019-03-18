@@ -188,7 +188,8 @@ figure{
   p{
     text-align: left;
     font-size: 14px;
-    color: black;
+    width: 800px;
+    margin: 0 auto;
   }
 
 }
@@ -221,9 +222,11 @@ figure{
     text-align: center;
   }
   p{
-    text-align: center;
+    text-align: left;
     font-size: 14px;
-    color: black;
+    width: 1000px;
+    margin: 0 auto;
+
   }
   .text_container{
     text-align: center;
@@ -242,6 +245,7 @@ figure{
   }
   .paralax{
     height: 250px;
+    width: 100%;
   }
   .paralax1{
     height: 500px;
@@ -258,9 +262,10 @@ figure{
     text-align: center;
   }
   p{
-    text-align: center;
+    text-align: left;
     font-size: 14px;
-    color: black;
+    width: 1000px;
+    margin: 0 auto;
   }
   .text_container{
     text-align: center;
